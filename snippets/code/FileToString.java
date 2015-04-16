@@ -1,5 +1,5 @@
 class FileToString {
-
+	
 	public final String convertToString(InputStream in) throws IOException {
 
         InputStreamReader is = new InputStreamReader(in);
@@ -18,5 +18,4 @@ class FileToString {
 
         return sb.toString();
     }
-	
 }
