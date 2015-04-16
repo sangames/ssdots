@@ -6,9 +6,6 @@
  * Path path = Paths.get(fileURI);
  * String filePath = path.toString();
  */
- 
-
-
 class PluginResourceToString {
 	private String convertResourceToString(final String filePath) {
 	        URL url = FrameworkUtil.getBundle(getClass()).getEntry(filePath);
